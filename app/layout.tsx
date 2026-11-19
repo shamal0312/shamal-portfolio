@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
@@ -14,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shamal Kawya | Full Stack Developer",
+  title: "Shamal Kawya | IT Undergraduate & Software Developer",
   description:
-    "Portfolio of Shamal Kawya, an Information Technology undergraduate and Full Stack Developer.",
+    "Portfolio of Shamal Kawya, an Information Technology undergraduate with interests in Software Development, Quality Assurance, Data Analytics, and Computer Networking.",
 };
 
 export default function RootLayout({
@@ -41,7 +42,10 @@ export default function RootLayout({
             <Link href="/about">About</Link>
             <Link href="/skills">Skills</Link>
             <Link href="/projects">Projects</Link>
-            <Link href="/experience">Experience</Link>
+
+            {/* Temporarily hidden Experience tab */}
+            {/* <Link href="/experience">Experience</Link> */}
+
             <Link href="/contact">Contact</Link>
           </div>
         </nav>
