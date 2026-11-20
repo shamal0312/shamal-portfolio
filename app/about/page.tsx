@@ -78,10 +78,11 @@ export default function About() {
             </p>
 
             <p>
-              Through my experience as a QA Engineer Intern,
-              I've gained practical exposure to manual testing,
-              test automation, API testing, and Agile development
-              workflows.
+              I'm interested in exploring different areas of
+              information technology, including software development,
+              quality assurance, data analytics, and computer
+              networking. I enjoy expanding my technical knowledge
+              through academic projects and continuous learning.
             </p>
 
             <p>
