@@ -42,10 +42,7 @@ export default function RootLayout({
             <Link href="/about">About</Link>
             <Link href="/skills">Skills</Link>
             <Link href="/projects">Projects</Link>
-
-            {/* Temporarily hidden Experience tab */}
-            {/* <Link href="/experience">Experience</Link> */}
-
+            <Link href="/experience">Experience</Link>
             <Link href="/contact">Contact</Link>
           </div>
         </nav>
